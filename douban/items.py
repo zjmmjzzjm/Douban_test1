@@ -14,3 +14,9 @@ class DoubanMovieItem(scrapy.Item):
 	name = scrapy.Field()
 	desc = scrapy.Field()
 
+class DoubanTVItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+	name = scrapy.Field()
+	rate = scrapy.Field()
+
